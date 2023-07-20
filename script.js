@@ -31,7 +31,7 @@ function timeBlockGenerator() {
     if (hour > 17 || hour < timeWindow[i]) {
       classProperty = "past"
     }
-    else if (hour == timeWindow[i] || hour == timeWindow[i]) {
+    else if (hour == timeWindow[i]) {
       classProperty = "present"
     }
     else {
